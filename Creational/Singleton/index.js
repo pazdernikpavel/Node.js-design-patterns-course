@@ -1,6 +1,6 @@
 const logger = require('./logger');
-const First = require('./first');
-const Second = require('./second');
+const First = require('./First');
+const Second = require('./Second');
 
 logger.log('starting app...');
 new First();
